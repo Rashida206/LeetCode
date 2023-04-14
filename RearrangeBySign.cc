@@ -1,4 +1,3 @@
-//Here is my attempt to the question
 class Solution {
 public:
    vector<int> rearrangeArray(vector<int>& nums) {
@@ -15,7 +14,5 @@ public:
         ans.push_back(n[i]);
     }
     return ans;
-    
-    }
+}
 };
-
